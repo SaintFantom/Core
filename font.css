@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url(minecraft-font/MinecraftRegular.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'etho';
+    src: url(ethnocentric/ethnocentric\ rg.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'robot';
+    src: url(sf-transrobotics/TrueType/SFTransRobotics.ttf);
+    font-display: swap;
+}

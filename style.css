@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(minecraft-font/MinecraftRegular.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'etho';
+    src: url(ethnocentric/ethnocentric\ rg.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'robot';
+    src: url(sf-transrobotics/TrueType/SFTransRobotics.ttf);
+    font-display: swap;
+}
+
+@media (max-width: 48rem) { /* 768px to rem */
+    .tab, .tab2 {
+        width: 100%;
+        font-size: 1.25rem; /* 20px to rem */
+        padding: 1;
+    }
+}
+
+nav {
+    border-bottom: 2px solid limegreen;
+    font-size: 0;
+}
+
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Minecraft', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.terminal {
+    background-color: rgb(8, 8, 8);
+    padding: 1.25rem;
+    height: fit-content;
+}
+
+.price {
+    text-indent: 3.125rem; /* 50px to rem */
+}
+
+.hardDiv {
+    text-indent: 6.25rem; /* 100px to rem */
+}
+
+a {
+    text-decoration: none;
+}
+
+.tab, .tab2 {
+    flex: 1;
+    border-top-left-radius: 0.938rem;
+    border-top-right-radius: 0.938rem;
+    text-align: center;
+    max-width: 30%;
+    min-width: 20%;
+    height: 1.875rem;
+    font-family: 'minecraft', sans-serif;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tab {
+    background-color: white;
+    color: black;
+}
+
+.tab2 {
+    background-color: limegreen;
+    color: white;
+}
+
+.tab:hover, .tab2:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: blue;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'robot';
+}
+
+h1 {
+    cursor: default;
+}
+
+h2:hover, h3:hover {
+    transition: 0.5s;
+    background-color: aquamarine;
+    cursor: none;
+}
+
+.hl {
+    text-indent: 3.125rem;
+}
+
+ul {
+    font-family: 'Minecraft';
+    list-style: none;
+}
+
+li:hover {
+    cursor: none;
+    background-color: lawngreen;
+    width: 50%;
+    text-align: left;
+}
+
+.a1 {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact {
+    padding: 3%;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    height: 15rem;
+    background-color: grey;
+}
