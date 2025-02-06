@@ -37,6 +37,10 @@ body {
     padding: 0;
 }
 
+.blue {
+    color: blue
+}
+
 .terminal {
     background-color: rgb(8, 8, 8);
     padding: 1.25rem;
